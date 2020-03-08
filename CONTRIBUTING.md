@@ -1,16 +1,52 @@
-## Coding Guidelines
+BBR 4thの開発について
+=====================
 
-- Use a text editor with [EditorConfig](http://editorconfig.org/) &
-  [Prettier](https://prettier.io/) support, to make sure we use indentations and
-  newlines consistently.
-  - We recommend [Visual Studio Code](https://code.visualstudio.com/)!
-- Always lint JavaScript code before committing. This helps reduce extraneous
-  commits.
-- Take a look at:
-  - [Developer Guide](https://bemuse.ninja/project/docs/developer-guide.html)
-  - [.editorconfig](.editorconfig)
-  - [.eslintrc.yml](.eslintrc.yml)
+コードベース
+----------
 
-## Commit Message Guidelines
+BBR4thについてはbemuseをベースに開発を行います
 
-Use [gitmoji](https://gitmoji.carloscuesta.me/)!
+
+ブランチの管理
+--------------
+
+以下のブランチがあります
+
+masterメインの開発用ブランチ
+→機能が動作するものはこの中に入れます
+※pull requestがある場合はmasterに向けてpull requestをしてください
+
+※コラボレーター向け
+アカウント名のブランチがあります（各コラボレーターの編集用)
+
+### 予定
+
+release ブランチ
+→リリース資産を入れる
+
+テストについて
+--------------
+
+可能な限り機能が動作するかのテストコードを含めてください。
+
+→可能であれば到達困難なコードを除いて文網羅が望ましいがそれより低くても可。
+
+
+コーディング規約について
+------------------------
+
+基本的に
+bemuseの規約に従います
+※bemuseのREADME.md/CONTRIBUTING.mdはbemusedocsを参照してください。
+
+ドキュメント/ソース/コミットコメントについては日本語で記述します
+
+
+ドキュメントについて
+--------------------
+
+未定
+
+(bemuseのドキュメントを日本語で保守するか、wikiに記載)
+
+docsフォルダーの取扱は未定です
