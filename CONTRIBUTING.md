@@ -50,3 +50,20 @@ bemuseの規約に従います
 (bemuseのドキュメントを日本語で保守するか、wikiに記載)
 
 docsフォルダーの取扱は未定です
+
+dockerfile
+----------
+
+開発用サーバービルド用のdockerfileを同梱しています
+
+以下で起動することができます。
+
+~~~
+
+sudo docker build -t bbr4 ./
+sudo docker run -d -p 8080:8080 --name bbr4-devel bbr4
+# localhost:8080　でアクセス可能
+# コンテナ削除/終了
+sudo docker rm -f bbr4-devel
+
+~~~
