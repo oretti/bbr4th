@@ -54,3 +54,6 @@ Icon
 /.otto/
 /packages/*/lib/
 .nyc_output
+
+/music_server/bemuse/*
+!.dummy
